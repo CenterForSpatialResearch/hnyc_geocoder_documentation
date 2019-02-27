@@ -1,5 +1,5 @@
-# Documentation for the Mapping Historical New York City Project
-Documentation: Mapping Historical New York
+# Documentation: Mapping Historical New York City Project
+
 
 Mapping Historical New York, through web-based, interactive maps, reconstructs the demographic and structural shifts of Manhattan and Brooklyn between 1850 and 1920. During this period, the city grew and diversified through the arrival of large groups of immigrants. Furthermore, the city boundaries expanded in the late 1890s to include a major section of Long Island specifically Brooklyn and Queens.
 
