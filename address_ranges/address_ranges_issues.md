@@ -1,7 +1,7 @@
 # HNYC
 
 ## Address Range + Street Attribute Entry
-Preparing historical street geometries to geocode census microdata.
+Preparing historical street geometries to geocode census microdata. Cameron was here
 
 ## Project Documentation
 
