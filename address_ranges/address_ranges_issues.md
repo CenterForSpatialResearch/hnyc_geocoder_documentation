@@ -1,7 +1,7 @@
 # HNYC
 
 ## Address Range + Street Attribute Entry
-Preparing historical street geometries to geocode census microdata. Victoria Edit!!!
+Preparing historical street geometries to geocode census microdata.
 
 ## Project Documentation
 
