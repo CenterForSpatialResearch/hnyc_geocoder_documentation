@@ -37,9 +37,9 @@ Some common issues for address range entry are:
 + When you take the time to click on a segment for attribution, make sure you change its state in some way before moving on. Enter the address ranges, flag an issue, or attribute the opened/unopened field.
 
 ## Hierarchy of Sources
-   1. Historical Property / Fire Insurance Atlases - please be consistent when referencing multiple atlas editions in/around a census year
-   2. Street Guides - should be used when the maps are incomplete, inconsistent and/or you have reason to believe that there is an error on the atlas plate
-   3. Contemporary Address Ranges - ONLY when there are no clear changes / inconsistencies in the built context or lot layouts on a block
+   1. **Historical Property / Fire Insurance Atlases** - please be consistent when referencing multiple atlas editions in/around a census year
+   2. **Street Guides** - should be used when the maps are incomplete, inconsistent and/or you have reason to believe that there is an error on the atlas plate
+   3. **Contemporary Address Ranges** - ONLY when there are no clear changes / inconsistencies in the built context or lot layouts on a block
 
 
 ## Types of Address Numbering Systems in New York City
@@ -153,7 +153,8 @@ When padding, make sure that you're not adding numbers that are associated with 
    * `S` - split
    * `G` - geometry edit
    * `A` - address fields should all be NULL values
-   Use `A` when there are no address numbers on either side of street & no addresses listed in City Directory Street Guide &  cannot interpolate addresses from adjacent street segments & modern street addresses do not apply (from OpenStreetMap, please be careful applying modern addresses)
+   + Use `A` when there are no address numbers on either side of street & no addresses listed in City Directory Street Guide &  cannot interpolate addresses from adjacent street segments & modern street addresses do not apply (from OpenStreetMap, please be careful applying modern addresses)
 
 + `ST Name Alternate [YEAR]`: Is there yet another street name given on the basemaps that differs from the label? Often these will be in parentheses.
 + `ST Unopened [YYYY]`: "Paper Streets". If the street was open on the historical basemap (see legend), do not enter anything in this field (default). If the street was closed, planned (drawn on the map) but not yet opened, enter a **1** in this field.
++ `Parity Right` & `Parity Left` : these fields are only used when odd & even numbers's are on same side of street. Enter `M` into `Parity Left` when all street numbers (odd & even) are on the left side of the street. Same for `Parity Right`
