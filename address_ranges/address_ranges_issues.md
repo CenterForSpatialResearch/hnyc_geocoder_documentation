@@ -96,8 +96,8 @@ When padding, make sure that you're not adding numbers that are associated with 
 
 ![](https://github.com/mapping-hnyc/documentation/blob/master/hnyc_addressRanges/images/consecIssue_1.png)
 
-+ Addresses are only given on one side of the street and the address numbers depicted are both odd and even numbers
-  1. Flag this in the `Issues` field with an **x** and skip it. We will need to create a point-based geocoder for these cases (like Central Park West, 5th Ave at Central Park, Riverside Ave, etc). You should take a screenshot and post this to the Trello board.
++ Addresses are only given on one side of the street and the address numbers depict both odd and even numbers
+  1. Depending on which side of the street numbers are given (basing direction on ascending address numbers) use the `Parity Right` & `Parity Left`fields. Enter `M` into `Parity Left` when all street numbers (odd & even) are on the left side of the street. Ditto for `Parity Right` if the odd and even numbers are on the right side of the segment.
 
 
 ![](https://github.com/mapping-hnyc/documentation/blob/master/hnyc_addressRanges/images/consecIssue_3%20Copy.png)
@@ -157,4 +157,4 @@ When padding, make sure that you're not adding numbers that are associated with 
 
 + `ST Name Alternate [YEAR]`: Is there yet another street name given on the basemaps that differs from the label? Often these will be in parentheses.
 + `ST Unopened [YYYY]`: "Paper Streets". If the street was open on the historical basemap (see legend), do not enter anything in this field (default). If the street was closed, planned (drawn on the map) but not yet opened, enter a **1** in this field.
-+ `Parity Right` & `Parity Left` : these fields are only used when odd & even numbers's are on same side of street. Enter `M` into `Parity Left` when all street numbers (odd & even) are on the left side of the street. Same for `Parity Right`
++ `Parity Right` & `Parity Left` : these fields are only used when odd & even numbers are on same side of street. Enter `M` into `Parity Left` when all street numbers (odd & even) are on the left side of the street. Same for `Parity Right`
