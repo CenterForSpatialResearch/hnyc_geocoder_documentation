@@ -34,6 +34,12 @@ Some common issues for address range entry are:
 + For each block / street segment be as inclusive with `low` and `high` number inputs as possible (capturing as many possible address numbers in your entry). The property atlases may omit numbers inconsistently and go against what we may know/assume about the address system. Use your critical judgement and these guidelines to fill in the blanks or resolve any inconsistencies.
 + Prioritize your critical reading of the property atlases. Use relevant street guides and other basemaps as secondary address finding aids.
 + Source analysis suggests contradicting the map in the attribute entry process in only a few instances: when the maps omit property lots and address numbers, mislabel or misspell, and/or when you need to enter address attributes in such a way as to assure a more accurate geocoding match.
++ When you take the time to click on a segment for attribution, make sure you change its state in some way before moving on. Enter the address ranges, flag an issue, or attribute the opened/unopened field.
+
+## Hierarchy of Sources
+   1. Historical Property / Fire Insurance Atlases - 
+   2. Street Guides - 
+   3. Contemporary Address Ranges - ONLY when there are no clear changes / inconsistencies in the built context or lot layouts on a block.
 
 
 ## Types of Address Numbering Systems in New York City
@@ -50,6 +56,7 @@ Sections of New York City will follow different rules for address numbering. In 
 + **Decimal System Address Numbers**
 
    Crosstown streets in Manhattan are numbered from the most recent intersection. Split into East and West by Fifth Avenue, address numbers progress sequentially from each intersection but skip to the next set of 100 numbers on every block (1, 100, 200, 300...). Even and odd numbers are given on opposite sides of the street.
+   Some neighborhoods in central and southern Brooklyn (where numbered avenues intersect with numbered cross-borough streets) are on the decimal system. These grid systems are not as uniform or predictable as Manhattan's. Apply the decimal system attribution method, but use caution.
 
    ![Diagram of the decimal system](https://github.com/mapping-hnyc/documentation/blob/master/hnyc_addressRanges/images/decSystem_1.png)
    ![Example of the decimal system in place along W 20th St in Manhattan](https://github.com/mapping-hnyc/documentation/blob/master/hnyc_addressRanges/images/decSystem_2.png)
