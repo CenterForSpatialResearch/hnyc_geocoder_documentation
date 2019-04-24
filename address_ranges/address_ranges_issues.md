@@ -3,11 +3,6 @@
 ## Address Range + Street Attribute Entry
 Preparing historical street geometries to geocode census microdata.
 
-## Project Documentation
-
-As a general rule, if you have a question about something you’re seeing on the map, a street geometry, address number, or if you think something is inconsistent/missing, *please document it*.
-
-
 ### Documentation Guidelines
 
 Please keep your own notes. Also log issues and questions you’re having (either with a particular segment/block, with the ArcOnline app, etc) on the [Address Range Trello board](https://trello.com/b/bkFvGgcE/address-ranges) as an issue card. Include a screenshot and a brief description of the issue (e.g. “There are odd and even addresses on both sides of the street on Myrtle Avenue near Fort Greene Park”). Use the Trello board labels (e.g. FYI, Can Wait, Critical) and tag other team members on the card.
