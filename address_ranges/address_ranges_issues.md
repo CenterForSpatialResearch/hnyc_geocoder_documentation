@@ -84,8 +84,8 @@ When padding, make sure that you're not adding numbers that are associated with 
 ![](https://github.com/mapping-hnyc/documentation/blob/master/hnyc_addressRanges/images/consecIssue_3.png)
 
 + Address numbers are only given on one side of the street
-  1. Are there residential buildings on the side of the street without address numbers? If no, you can leave the relevant `low` and `high` fields blank. Sometimes large institutional buildings will occupy an entire block -- the address for that building may be associated with another adjacent street.
-  2. Have the address numbers on either side of the street generally been ascending at the same rate / at an even distribution? If yes, you may use the address range opposite as a rough guide for inputting addresses into the blank fields, adjusting even/odd accordingly.
+  1. Have the address numbers on either side of the street generally been ascending at the same rate / at an even distribution? If yes, you may use the address range opposite as a rough guide for inputting addresses into the blank fields, adjusting even/odd accordingly.
+  2. Are there residential buildings on the side of the street without address numbers? If no, you can leave the relevant `low` and `high` fields blank. Sometimes large institutional buildings will occupy an entire block -- the address for that building may be associated with another adjacent street.
   3. Is there a park or some other type of non-residential land type or use (e.g. warehousing, waterfront) on the block? Do the addresses given on one side of the block contain both even and odd address numbers? If yes, please see the next guideline -->
 
 
