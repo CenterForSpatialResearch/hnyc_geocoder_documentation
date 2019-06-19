@@ -1,14 +1,9 @@
 # HYNC
 
- 
-
 ## Geometry Editing Guide
+---
 
-\---
-
- 
-
-\#\#\# Documentation Guidelines
+### Documentation Guidelines
 
  
 
