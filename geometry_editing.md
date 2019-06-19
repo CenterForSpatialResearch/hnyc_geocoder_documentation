@@ -1,8 +1,8 @@
-\# HYNC
+# HYNC
 
  
 
-\#\# Geometry Editing Guide
+## Geometry Editing Guide
 
 \---
 
