@@ -17,7 +17,7 @@ making edits.
 * Make sure that all segments snap onto each other. This will be critical for
 geocoding and calculating travel time.
 * Mark a `1` in the `geometry check [census year]` field for every segment
-without issues
+without issues.
 * Don’t be trigger happy with the delete button. Deleted segments are gone.
 Forever.
 * When in doubt, flag an issue on the Geometry Trello Board. It is important
