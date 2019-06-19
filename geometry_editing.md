@@ -23,64 +23,40 @@ Forever.
 * When in doubt, flag an issue on the Geometry Trello Board. It is important
 that we resolve difficult issues together to ensure common practices.
 
-### Common Issues
----
+## Common Issues
+
 Some common issues for geometry editing are:
 
 * Two or more segments need to be merged
-
 * A segment needs to be split into two or more parts
-
 * Missing segments need to be drawn into existing streets
-
 * Intersections are imperfect and break up continuing streets
-
 * Two atlas editions from years surrounding the census year show different
 conditions
-
 * Unopened or planned streets need to be drawn in
-
 * Due to urban developments streets on the waterfront are absent
-
 * Old country roads intersect with the (existing or proposed) city grid
-
 * Old buildings appear in the middle of existing or planned roads
-
 * Ambiguous alleys or unnamed streets show up
-
 * Segments that already have attributes filled in need to be planarized
-
 * Basemaps are poorly georeferenced
-
 * Georeferenced maps overlap at edges, covering important information
 
- 
+## Strategies for Common Issues
 
-\#\#\# Strategies for Common Issues
+### Screening, Merging, and Splitting
 
-\---
-
-\#\#\#\# Screening, Merging, and Splitting
-
- 
-
-All street segments need to be checked for geometry errors. Using the \`select\`
+All street segments need to be checked for geometry errors. Using the `select`
 tool, draw a line over a number of segments to see if their geometry corresponds
 with the situation for the given year (1910, 1880, 1850). If the city block
 consists of two or more segments, merge them. If a street segment extends beyond
 its intersections with other streets, split the segment at the junction(s). When
-a segment is checked, mark a \`1\` in the attribute field \`Geometry Check
-[census year]\`.
-
- 
+a segment is checked, mark a \`1\` in the attribute field `Geometry Check
+[census year]`.
 
 ![Image 1](\*\*Selection, Merge, Split\*\*)
 
- 
-
-\#\#\#\# Missing Segments
-
- 
+### Missing Segments
 
 When segments are missing along open streets, make sure to add these back in.
 This can happen where portions of streets no longer exist due to large scale
@@ -88,22 +64,14 @@ developments, e.g. parks, highways, housing projects. Draw in a new street
 segment in the direction of ascending address numbers. Be sure to snap the new
 street segment to the junctions on either side.
 
- 
-
 Alternatively, if the missing segment is at the end of the road, you can extend
 the existing street as a benchmark in order to ensure the right placement of the
 new segment. Then, draw in the new segment based on the benchmark street.
 Afterwards, move the existing street back to its original place.
 
- 
-
 ![Image 2](\*\*Missing Segment\*\*)
 
- 
-
-\#\#\#\# Imperfect Intersections
-
- 
+### Imperfect Intersections
 
 Along intersections there are often small segments that connect street segments
 holding address ranges, but do not represent any addresses or buildings
@@ -113,23 +81,15 @@ spatial continuation of each street. Even if they do not contain any ranges
 themselves, make sure to add them where streets clearly continue across
 intersections.
 
- 
-
 ![Image 3](\*\*Junction\*\*)
 
- 
-
-\#\#\#\# Discrepancies Between Atlas Editions
-
- 
+### Discrepancies Between Atlas Editions
 
 In some cases, maps of different years contain divergent or contradictory
 information. If there is a discrepancy between various atlas plates, try to
 infer whether roads were in existence and in use at the census year from other
 sources at your disposal, e.g. city directories, current situation, and other
 maps.
-
- 
 
 In one case in Flatbush, Brooklyn, a 1906 map included a series of planned
 roads, while 1916 showed an extension of the adjacent cemetery instead. Today's
@@ -141,8 +101,6 @@ always best to preserve as much information as possible. In most cases, streets
 that exist in one map but not another should be added nonetheless. It can also
 be helpful to double check with the directories of surrounding dates to see if
 any address numbers were ever assigned to the area.
-
- 
 
 ![Image 4](\*\*Map Discrepancy\*\*)
 
