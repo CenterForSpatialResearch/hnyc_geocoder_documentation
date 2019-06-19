@@ -69,7 +69,7 @@ the existing street as a benchmark in order to ensure the right placement of the
 new segment. Then, draw in the new segment based on the benchmark street.
 Afterwards, move the existing street back to its original place.
 
-![Image 2](\*\*Missing Segment\*\*)
+![Image 2](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/missing_segment.png)
 
 ### Imperfect Intersections
 
@@ -81,7 +81,7 @@ spatial continuation of each street. Even if they do not contain any ranges
 themselves, make sure to add them where streets clearly continue across
 intersections.
 
-![Image 3](\*\*Junction\*\*)
+![Image 3](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/junctions.png)
 
 ### Discrepancies Between Atlas Editions
 
@@ -102,7 +102,7 @@ that exist in one map but not another should be added nonetheless. It can also
 be helpful to double check with the directories of surrounding dates to see if
 any address numbers were ever assigned to the area.
 
-![Image 4](\*\*Map Discrepancy\*\*)
+![Image 4](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/discrepancy.png)
 
 ### Drawing In Unopened Streets
 
@@ -113,7 +113,7 @@ as many anchor points from the existing street network as possible.
 If roads are broken up by rivers, canals, parks, or in this case a cemetery, you
 can observe the following strategy:
 
-![Image 5](\*\*1906-1916, Holy Cross\*\*)
+![Image 5](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/1906_1916_holy_cross.png)
 
 ### Waterfront
 
@@ -124,7 +124,7 @@ clear indications of opened streets and/or potential addresses. Reference all
 basemaps in deciding where to add segments and in determining their start and
 end points.
 
-![Image 6](\*\*Waterfront\*\*)
+![Image 6](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/waterfront.png)
 
 ### Old Roads
 
@@ -137,14 +137,14 @@ grid system? Are the intersections and junctions with other streets colored,
 implying continued use? If it seems likely that the road was still operational,
 **planarize** with other existing roads.
 
-![Image 7](\*\*Old Road\*\*)
+![Image 7](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/old_road.png)
 
 In the example below, an old road intersects with the new grid at various
 points. Since there are buildings and plots aligned with the old road, we can
 conclude that it’s still in use. The road should be drawn in and then planarized
 with existing intersecting streets.
 
-![Image 8](\*\*Old Road Planarize\*\*)
+![Image 8](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/old_road_planarize.png)
 
 ### Buildings and Roads Overlapping
 
@@ -154,7 +154,7 @@ addresses and will shortly be demolished. In these cases it is best to mark the
 streets unopened with no addresses if none are found on either the map or the
 directory. Make sure to reference each map year
 
-![Image 9](\*\*Building on Road\*\*)
+![Image 9](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/building_on_road.png)
 
 ### Alleys
 
@@ -170,7 +170,7 @@ be recorded based on their current condition.
 
 When you planarize streets that already have attribute fields filled in, the
 attributes will duplicate into the new street segments. Look at the attributes
-of each new segment and change them \*\*immediately\*\* after planarizing if
+of each new segment and change them **immediately** after planarizing if
 they are no longer correct.
 
 ### Poor Georeferencing
@@ -182,7 +182,7 @@ this, **first compare the different atlas plates**. Also take into
 consideration the contemporary street network in order to determine whether it
 is the geometry or the atlas that is misaligned.
 
-![Image 10](\*\*Georeferencing\*\*)
+![Image 10](https://github.com/CenterForSpatialResearch/hnyc_documentation/blob/master/geometry_editing/images/georeferencing.png)
 
 ### Map Seams
 
