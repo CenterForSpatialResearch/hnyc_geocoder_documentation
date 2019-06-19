@@ -54,7 +54,7 @@ its intersections with other streets, split the segment at the junction(s). When
 a segment is checked, mark a \`1\` in the attribute field `Geometry Check
 [census year]`.
 
-![Image 1](\*\*Selection, Merge, Split\*\*)
+![Image 1](geometry_editing/images/selection_merge.png)
 
 ### Missing Segments
 
