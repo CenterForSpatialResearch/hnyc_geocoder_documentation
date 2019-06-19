@@ -1,12 +1,8 @@
 # HYNC
 
 ## Geometry Editing Guide
----
 
 ### Documentation Guidelines
-
- 
-
 Please keep your own notes. Also log issues and questions you’re having (either
 with a particular segment or with the ArcGIS software) on the [Street Geometry
 Trello Board](https://trello.com/b/sqVDLXwu/street-geometries) as an issue card.
@@ -14,64 +10,49 @@ Include a screenshot and a brief description of the issue (e.g. “Basemap missi
 in Canarsie”). Use the Trello board labels (e.g. FYI, Can Wait, Critical) and
 tag other team members on the card.
 
- 
-
-\#\#\# Guiding Principles for Street Geometry
-
- 
-
-\* Do not blindly trust georeferenced maps. Always consult at least 2 sources
+### Guiding Principles for Street Geometry
+* Do not blindly trust georeferenced maps. Always consult at least 2 sources
 (e.g. contemporary map, different atlas editions, city directories) before
 making edits.
-
-\* Make sure that all segments snap onto each other. This will be critical for
+* Make sure that all segments snap onto each other. This will be critical for
 geocoding and calculating travel time.
-
-\* Mark a \`1\` in the \`geometry check [census year]\` field for every segment
+* Mark a `1` in the `geometry check [census year]` field for every segment
 without issues
-
-\* Don’t be trigger happy with the delete button. Deleted segments are gone.
+* Don’t be trigger happy with the delete button. Deleted segments are gone.
 Forever.
-
-\* When in doubt, flag an issue on the Geometry Trello Board. It is important
+* When in doubt, flag an issue on the Geometry Trello Board. It is important
 that we resolve difficult issues together to ensure common practices.
 
- 
-
-\#\#\# Common Issues
-
-\---
-
+### Common Issues
+---
 Some common issues for geometry editing are:
 
- 
+* Two or more segments need to be merged
 
-\* Two or more segments need to be merged
+* A segment needs to be split into two or more parts
 
-\* A segment needs to be split into two or more parts
+* Missing segments need to be drawn into existing streets
 
-\* Missing segments need to be drawn into existing streets
+* Intersections are imperfect and break up continuing streets
 
-\* Intersections are imperfect and break up continuing streets
-
-\* Two atlas editions from years surrounding the census year show different
+* Two atlas editions from years surrounding the census year show different
 conditions
 
-\* Unopened or planned streets need to be drawn in
+* Unopened or planned streets need to be drawn in
 
-\* Due to urban developments streets on the waterfront are absent
+* Due to urban developments streets on the waterfront are absent
 
-\* Old country roads intersect with the (existing or proposed) city grid
+* Old country roads intersect with the (existing or proposed) city grid
 
-\* Old buildings appear in the middle of existing or planned roads
+* Old buildings appear in the middle of existing or planned roads
 
-\* Ambiguous alleys or unnamed streets show up
+* Ambiguous alleys or unnamed streets show up
 
-\* Segments that already have attributes filled in need to be planarized
+* Segments that already have attributes filled in need to be planarized
 
-\* Basemaps are poorly georeferenced
+* Basemaps are poorly georeferenced
 
-\* Georeferenced maps overlap at edges, covering important information
+* Georeferenced maps overlap at edges, covering important information
 
  
 
