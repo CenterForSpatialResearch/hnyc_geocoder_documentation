@@ -104,30 +104,18 @@ any address numbers were ever assigned to the area.
 
 ![Image 4](\*\*Map Discrepancy\*\*)
 
- 
-
-\#\#\#\# Drawing In Unopened Streets
-
- 
+### Drawing In Unopened Streets
 
 In the example above, new street segments had to be drawn in. When you need to
 create a larger collection of streets rather than just one segment, try to use
 as many anchor points from the existing street network as possible.
 
- 
-
 If roads are broken up by rivers, canals, parks, or in this case a cemetery, you
 can observe the following strategy:
 
- 
-
 ![Image 5](\*\*1906-1916, Holy Cross\*\*)
 
- 
-
-\#\#\#\# Waterfront
-
- 
+### Waterfront
 
 Often, waterfront streets and docks are missing segments at places where streets
 are visible in atlas maps. To best reflect these industrial areas and their
@@ -136,15 +124,9 @@ clear indications of opened streets and/or potential addresses. Reference all
 basemaps in deciding where to add segments and in determining their start and
 end points.
 
- 
-
 ![Image 6](\*\*Waterfront\*\*)
 
- 
-
-\#\#\#\# Old Roads
-
- 
+### Old Roads
 
 There are a number of old country roads that intersect with the street grid,
 especially in outer neighborhoods of Brooklyn. When encountering such roads, it
@@ -153,28 +135,18 @@ questions in each ambiguous case. Are there buildings or plots that align with
 the old street? Does the old street intersect with buildings that follow the new
 grid system? Are the intersections and junctions with other streets colored,
 implying continued use? If it seems likely that the road was still operational,
-\*\*planarize\*\* with other existing roads.
-
- 
+**planarize** with other existing roads.
 
 ![Image 7](\*\*Old Road\*\*)
-
- 
 
 In the example below, an old road intersects with the new grid at various
 points. Since there are buildings and plots aligned with the old road, we can
 conclude that it’s still in use. The road should be drawn in and then planarized
 with existing intersecting streets.
 
- 
-
 ![Image 8](\*\*Old Road Planarize\*\*)
 
- 
-
-\#\#\#\# Buildings and Roads Overlapping
-
- 
+### Buildings and Roads Overlapping
 
 There are a lot of cases where old buildings along old roads intersect with
 planned but unopened grid streets. These will most likely have no official
@@ -182,15 +154,9 @@ addresses and will shortly be demolished. In these cases it is best to mark the
 streets unopened with no addresses if none are found on either the map or the
 directory. Make sure to reference each map year
 
- 
-
 ![Image 9](\*\*Building on Road\*\*)
 
- 
-
-\#\#\#\# Alleys
-
- 
+### Alleys
 
 There are a number of alleys across the city, particularly in industrial
 waterfront areas. They are usually named but do not contain any addresses. In
@@ -200,39 +166,25 @@ for address ranges on the maps and in the directories (they often don't have
 any). Also check to see if they exist today, and if additional information can
 be recorded based on their current condition.
 
- 
-
-\#\#\#\# Planarizing Streets With Attributes
-
- 
+### Planarizing Streets With Attributes
 
 When you planarize streets that already have attribute fields filled in, the
 attributes will duplicate into the new street segments. Look at the attributes
 of each new segment and change them \*\*immediately\*\* after planarizing if
 they are no longer correct.
 
- 
-
-\#\#\#\# Poor Georeferencing
-
- 
+### Poor Georeferencing
 
 Sometimes it may seem like the street networks of entire neighborhoods are
 misaligned and in need of significant geometry edits. However, it may just be
 that the corresponding atlas plate is poorly georeferenced. In a situation like
-this, \*\*first compare the different atlas plates\*\*. Also take into
+this, **first compare the different atlas plates**. Also take into
 consideration the contemporary street network in order to determine whether it
 is the geometry or the atlas that is misaligned.
 
- 
-
 ![Image 10](\*\*Georeferencing\*\*)
 
- 
-
-\#\#\#\# Map Seams
-
- 
+### Map Seams
 
 At streets located on the border of two atlas maps, or wherever various maps
 touch, there will often be some overlap, where one map covers the edge of the
