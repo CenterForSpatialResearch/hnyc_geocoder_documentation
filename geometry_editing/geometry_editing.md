@@ -11,7 +11,7 @@ in Canarsie”). Use the Trello board labels (e.g. FYI, Can Wait, Critical) and
 tag other team members on the card.
 
 ### Guiding Principles for Street Geometry
-* Do not blindly trust georeferenced maps. Always consult at least 2 sources
+* Do not always trust georeferenced maps. Always consult at least 2 sources
 (e.g. contemporary map, different atlas editions, city directories) before
 making edits.
 * Make sure that all segments snap onto each other. This will be critical for
